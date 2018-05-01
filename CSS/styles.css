@@ -1,0 +1,17 @@
+body {
+  background-color: #262673;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.eighties {
+  color: #225f67;
+  text-align: left;
+}
+
+ul {
+  list-style-image: url(https://i.pinimg.com/originals/9d/4b/44/9d4b44afe58d97269216676a5ff836a4.png);
+  color: #fc5fff;
+
+}
