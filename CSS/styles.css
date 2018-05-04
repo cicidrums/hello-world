@@ -1,17 +1,78 @@
-body {
-  background-color: #262673;
-  color: #fff;
-  font-family: sans-serif;
-  text-align: center;
+.sidebar {
+  width: 10%;
+  height: 100%;
+  float: right;
+  background-color: #DF91BA;
+  color: #6181CD;
+  font-family: monospace;
+  font-size: 18px;
+  top: 0px;
+}
+
+.sidebar:hover{
+  color: #AEC6FF;
+  top: -10px;
+}
+
+.sidebar ul:hover{
+  color: #000;
 }
 
 .eighties {
-  color: #225f67;
+  color: #000;
   text-align: left;
+  list-style: circle;
+}
+
+.eighties ul {
+  list-style: circle;
+  color: #DD91DF;
+  font-size: 20px;
+  font-weight:lighter;
+}
+
+.cheers {
+  color: #BADF91;
+}
+
+.cheers:hover {
+  color: #DD91DF;
+}
+
+.golden-girls {
+  color: #FFC300;
+}
+
+.golden-girls:hover {
+  color: #82E0AA;
+}
+
+.boss {
+  color: #DF9193;
+}
+
+.boss:hover {
+  color: #DFDD91;
+}
+
+.column{
+  text-align: justify;
+}
+
+body {
+
+  font-family: 'El Messiri', sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(45deg, #FFF 50%, #FFCCFA 50%);
+  min-height: 500px;
+}
+
+img {
+  float: center;
 }
 
 ul {
-  list-style-image: url(https://i.pinimg.com/originals/9d/4b/44/9d4b44afe58d97269216676a5ff836a4.png);
-  color: #fc5fff;
-
+  text-align: left;
 }
